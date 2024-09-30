@@ -4,7 +4,6 @@ from future.backports import count
 try:
     numoflines = numofchars = 0
     file = open('grumpy.txt', 'r')
-# this will open the separate file in read mode so that the file can be read
     lines = file.readlines()
     for line in lines:
         numoflines += 1
@@ -15,4 +14,7 @@ try:
     print("Lines in file:", numoflines)
 except FileNotFoundError as error:
     print("File could not be found:", str(error))
+# Count all lines in text file.py
+# Kyle Pendleton
 # 30/09/2024
+# This will count all the lines in a text file
