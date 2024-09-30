@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
+import os
 try:
-    import os
     for root, directories, files in os.walk(".", topdown=False):
-        for files_found in files:
-            print('[+] ',os.path.join(root, files_found))
-# the files in the current directory will be printed to the screen
+        for file_entry in files:
+            print('[+] ', os.path.join(root, file_entry))
         for name in directories:
-            print('[++] ',name)
-# the directories in the current directory will be printed to the screen
-# os.walk will list all the files in the current directory and then printed to the screen
+            print('[++] ', name)
 except:
     print("An error occurred")
+# List subdirectories of current directory.py
+# Kyle Pendleton
+# 30/09/2024
+# This will list all the subdirectories of the current directory where the programme is running from
