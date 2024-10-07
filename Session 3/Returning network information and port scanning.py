@@ -1,3 +1,9 @@
+# Returning network information and port scanning.py
+# Kyle Pendleton
+# 07/10/2024
+# This is a combination of the network information and port scanning scripts
+
+#!/usr/bin/env python
 import socket
 import errno
 #returning network information section

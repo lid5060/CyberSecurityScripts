@@ -1,4 +1,4 @@
-# Checking for services.py
+# Returning network information.py
 # Kyle Pendleton
 # 07/10/2024
 # This will return information about the specified network address

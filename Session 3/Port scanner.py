@@ -1,4 +1,4 @@
-# Checking for services.py
+# Port scanner.py
 # Kyle Pendleton
 # 07/10/2024
 # This will scan a specified network for open ports
