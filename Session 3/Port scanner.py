@@ -4,7 +4,6 @@
 # This will scan a specified network for open ports
 
 #!/usr/bin/env python
-
 import socket
 import errno
 Remote_connection = input("Enter a remote network to scan: ")
