@@ -29,8 +29,8 @@ def decode_gps_info(exif):
     if 'GPSInfo' in exif:
         for key in exif['GPSInfo'].keys():
             decode = GPSTAGS.get(key, key)
-            gpsinfo[decode] = exif['GPSInfo'][key]
-        exif['GPSInfo'] = gpsinfo
+            gps_information[decode] = exif['GPSInfo'][key]
+        exif['GPSInfo'] = gps_information
 
         latitude = exif['GPSInfo']['GPSLatitude']
         latitude_ref = exif['GPSInfo']['GPSLatitudeRef']
