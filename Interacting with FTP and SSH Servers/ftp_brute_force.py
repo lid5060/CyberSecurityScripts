@@ -1,6 +1,6 @@
 #Kyle Pendleton
 #11/11/2024
-#This script will attempt to bruteforce access to an ftp server using the files containing usernames and passwords
+#This script will attempt to bruteforce access to a ftp server using the files containing usernames and passwords
 
 #!/usr/bin/env python3
 
