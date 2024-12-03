@@ -1,3 +1,7 @@
+# Kyle Pendleton
+# 02/12/2024
+# this will extract data from the specified PDF file
+
 #!usr/bin/env python3
 
 import PyPDF2
